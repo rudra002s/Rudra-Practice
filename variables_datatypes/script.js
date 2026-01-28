@@ -17,3 +17,13 @@ console.log(a) //it takes the value of a from outside the var a at the top ie ou
 
 //const a=1;
 //a=a+1;  //error because constant variable value cannot be changed
+
+let x="rudra bhai";
+let y=1;
+let z=3.14;
+const p=true;
+let q=undefined;
+let r=null;
+
+console.log(x,y,z,p,q,r)
+console.log(typeof x,typeof y,typeof z,typeof p,typeof q,typeof r) 
