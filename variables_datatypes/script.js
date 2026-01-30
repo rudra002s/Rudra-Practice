@@ -23,7 +23,19 @@ let y=1;
 let z=3.14;
 const p=true;
 let q=undefined;
-let r=null;
+let r=null; //null will also show as object in typeof
 
 console.log(x,y,z,p,q,r)
 console.log(typeof x,typeof y,typeof z,typeof p,typeof q,typeof r) 
+
+let o={
+    'name':'Rudra',
+    'job':'student',
+    'age':22
+}
+
+console.log(o);
+o.salary=50000; //adding new key value pair to object
+console.log(o);
+o.salary=60000; //modifying existing key value pair to object
+console.log(o);
