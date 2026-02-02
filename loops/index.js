@@ -22,7 +22,7 @@ for (let i = 0; i < 500; i++) {
 
 // in this we first initialise then put condition then it prints in console log
 
-// FOR IN LOOP
+// FOR IN LOOP is used for key and elements
 
 let obj = {
     name: "Rudra",
@@ -46,4 +46,10 @@ for (const key in obj) {
 for (const key in obj) {
     const element = obj[key];
     console.log(element)
+}
+
+//FOR OF LOOP is used in arrays
+
+for (const char of "Rudra") {
+    console.log(char)
 }
