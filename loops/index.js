@@ -1,6 +1,6 @@
 console.log("i am learning loops")
 
-let a=1;
+let a = 1;
 // console.log(a)
 // console.log(a+1)
 // console.log(a+2)
@@ -15,8 +15,35 @@ let a=1;
 // while loop
 // do while loop
 
-for (let i = 0; i < 500; i++){
-    console.log(a+i)
+//FOR LOOP
+for (let i = 0; i < 500; i++) {
+    console.log(a + i)
 }
-    
+
 // in this we first initialise then put condition then it prints in console log
+
+// FOR IN LOOP
+
+let obj = {
+    name: "Rudra",
+    role: "student",
+    college: "usar"
+}
+
+//to print both the key and elements
+for (const key in obj) {
+    const element = obj[key];
+    console.log(key, element)
+}
+
+//to print key
+for (const key in obj) {
+    const element = obj[key];
+    console.log(key)
+}
+
+//to print elements
+for (const key in obj) {
+    const element = obj[key];
+    console.log(element)
+}
