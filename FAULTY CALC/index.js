@@ -26,8 +26,11 @@ let obj={
 
 if(random>0.1){
     //for correct calculations
+    alert(`The result is ${eval(`${a} ${b} ${c}`)}`)
 }
 
 else{
     //for wrong calculations
-}
+    c=obj[c]
+    alert(`The result is ${eval(`${a} ${b} ${c}`)}`)
+} 
