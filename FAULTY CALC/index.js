@@ -11,26 +11,26 @@ it performs wrong operation 10% of the times
 
  */
 
-let random=Math.random()
+let random = Math.random()
 
-let a=prompt("Enter first number");
-let b=prompt("Enter second number");
-let c=prompt("Enter operation");
+let a = prompt("Enter first number");
+let b = prompt("Enter second number");
+let c = prompt("Enter operation");
 
-let obj={
-    "+":"-",
-    "*":"+",
-    "-":"/",
-    "/":"**"
+let obj = {
+    "+": "-",
+    "*": "+",
+    "-": "/",
+    "/": "**"
 }
 
-if(random>0.1){
+if (random > 0.1) {
     //for correct calculations
     alert(`The result is ${eval(`${a} ${b} ${c}`)}`)
 }
 
-else{
+else {
     //for wrong calculations
-    c=obj[c]
+    c = obj[c]
     alert(`The result is ${eval(`${a} ${b} ${c}`)}`)
 } 
