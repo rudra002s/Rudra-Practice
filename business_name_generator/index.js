@@ -43,3 +43,16 @@ else{
 }
 console.log(shop_name)
 
+let wordRandom=Math.random()
+let another_word;
+
+if(wordRandom<0.33){
+    another_word="bros"
+}
+ else if(wordRandom<0.66){
+    another_word="limited"
+}
+else{
+    another_word="hub"
+}
+console.log(another_word)
