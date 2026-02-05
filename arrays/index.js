@@ -35,3 +35,6 @@ let a2=[4,5,6]
 let a3=[7,8,9]
 let a4=a1.concat(a2,a3)
 console.log(a4)
+
+console.log(a4.splice(1,2,111,222)) //1 is for start and 2 is for number of elements to be removed and last two are for replacement
+console.log(a4)
