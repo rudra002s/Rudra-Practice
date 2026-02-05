@@ -56,3 +56,5 @@ else{
     another_word="hub"
 }
 console.log(another_word)
+
+console.log(`${adjective} ${shop_name} ${another_word}`)
