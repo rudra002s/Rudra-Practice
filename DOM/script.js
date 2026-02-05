@@ -9,8 +9,12 @@ console.log(document.body)
 
 // console.log(document.body.childNodes[1].firstElementChild.style.backgroundColor="yellow") //used css properties as well
 
-console.log(document.body.firstElementChild)
-console.log(document.body.firstElementChild.children[0])
-console.log(document.body.firstElementChild.children[1])
-console.log(document.body.firstElementChild.children[1].nextElementSibling)
-console.log(document.body.firstElementChild.children[1].previousElementSibling)
+// console.log(document.body.firstElementChild)
+// console.log(document.body.firstElementChild.children[0])
+// console.log(document.body.firstElementChild.children[1])
+// console.log(document.body.firstElementChild.children[1].nextElementSibling)
+// console.log(document.body.firstElementChild.children[1].previousElementSibling)
+
+
+console.log(document.body.children)
+console.log(document.body.children[1].rows)
