@@ -1,6 +1,7 @@
 let arr=[1,2,3,4,5,6]
 
-const red=(a,b)=>{
-    return a*b
+function factorial(a,b){return arr.reduce((a,b)=>a*b)
+
 }
-console.log(arr.reduce(red))
+console.log(arr)
+console.log(factorial())
