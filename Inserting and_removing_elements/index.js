@@ -20,3 +20,13 @@ console.log(document.querySelector(".box").setAttribute("style","display:inline"
 console.log(document.querySelector(".box").attributes)
 console.log(document.querySelector(".box").removeAttribute("style")) //removes the style attribute
 console.log(document.querySelector(".box").dataset)
+
+// let div=document.createElement("div")
+        // div.innerHTML="i have been inserted"
+        // div.setAttribute("class","created")
+        // // document.querySelector(".container").append(div); //adds element at the last
+        // // document.querySelector(".container").before(div);
+        // document.querySelector(".container").after(div);
+        let cont=document.querySelector(".container")
+        cont.insertAdjacentHTML("afterbegin","<b>hellloooooooooo</b>") //it will place this string as per the declared position like before or after .container
+        document.querySelector(".box").remove()
