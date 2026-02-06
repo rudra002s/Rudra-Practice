@@ -17,3 +17,6 @@ console.log(document.querySelector(".container").textContent)
 console.log(document.querySelector(".box").hasAttribute("style")) //tells wether the code has style or any other element
 console.log(document.querySelector(".box").getAttribute("style")) //shows what type of styling has been done
 console.log(document.querySelector(".box").setAttribute("style","display:inline")) //changes the style
+console.log(document.querySelector(".box").attributes)
+console.log(document.querySelector(".box").removeAttribute("style")) //removes the style attribute
+console.log(document.querySelector(".box").dataset)
