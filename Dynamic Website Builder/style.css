@@ -4,6 +4,8 @@
     width: 900px;
     justify-content: center;
     align-items: center;
+    padding: 12px;
+    margin: 5px;
 }
 
 .image img {
@@ -13,4 +15,18 @@
 .text h1,
 p {
     padding-top: 2px 0;
+}
+.img{
+    position: relative;
+}
+.capsule{
+    position: absolute;
+    z-index: 12;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgb(74, 66, 66);
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    opacity: 9;
 }
