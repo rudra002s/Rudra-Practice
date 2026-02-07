@@ -11,6 +11,15 @@ button.addEventListener("dblclick", () => {
 
 button.addEventListener("contextmenu", () => {
     //it is used for right click
-    alert("RIGHT CLICK")
-     
+    alert("RIGHT CLICK")  
+})
+
+//KEYBOARD EVENTS
+
+button.addEventListener("keydown", (e) => {
+    // here e is used an event
+
+    //in this whenever the cursor is at the button and a key is pressed its output can be seen 
+    console.log(e)
+    console.log(e.key) //here key will also be printed along with the output
 })
